@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "classaction-settlements",
+      "url": "https://www.classaction.org/settlements",
+      "kind": "settlement_directory"
+    },
+    {
+      "id": "classaction-database",
+      "url": "https://www.classaction.org/database",
+      "kind": "lawsuit_index",
+      "requires_javascript": true
+    },
+    {
+      "id": "top-class-actions",
+      "url": "https://topclassactions.com/",
+      "kind": "mixed_directory"
+    },
+    {
+      "id": "claim-depot",
+      "url": "https://www.claimdepot.com/settlements",
+      "kind": "settlement_directory"
+    }
+  ]
+}

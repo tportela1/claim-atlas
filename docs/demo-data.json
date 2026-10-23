@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "title": "Your settlement briefing.",
+  "date": "2026-10-23",
+  "mode": "Public settlements, then selected email",
+  "accounts": [
+    "Demo personal mailbox"
+  ],
+  "summary": "Fictitious demo: one next step to review, two potential matches with unanswered questions, and two claims already tracked. No real cases or eligibility findings are represented.",
+  "coverage": [
+    {
+      "source": "Public discovery",
+      "status": "complete",
+      "detail": "Fictitious demonstration of three reviewed directories and deduplicated case identities. These are not real listings."
+    },
+    {
+      "source": "Selected mailbox",
+      "status": "partial",
+      "detail": "Demo limitation: older archived messages were unavailable. Missing evidence remains unknown."
+    },
+    {
+      "source": "Notice scan",
+      "status": "not_run",
+      "detail": "This example uses the public-first path; a notice sweep was not performed."
+    }
+  ],
+  "cases": [
+    {
+      "key": "demo-northstar",
+      "title": "Northstar membership fees",
+      "lane": "next-steps",
+      "status": "Ready for your review",
+      "summary": "A fictitious fee settlement with specific evidence and all material criteria supported.",
+      "next_step": "Review the rules and decide whether to file. This demo cannot submit a claim.",
+      "eligibility": "confirmed",
+      "deadline": "2026-12-15",
+      "payout": "$18-$35 estimate; not guaranteed",
+      "official_url": "https://example.com/northstar",
+      "verified_on": "2026-10-23",
+      "verification": "Fictitious rules only / 2026-10-23",
+      "evidence": [
+        "Demo renewal receipt falls within the example class period.",
+        "The user confirmed the fee and exclusions."
+      ],
+      "criteria": [
+        {
+          "criterion": "Qualifying fee and class exclusions",
+          "state": "supported",
+          "detail": "Transaction evidence and personal confirmation support the example requirements."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Example official source",
+          "url": "https://example.com/northstar"
+        }
+      ]
+    },
+    {
+      "key": "demo-harbor",
+      "title": "Harbor Home product labeling",
+      "lane": "discoveries",
+      "status": "One fact to confirm",
+      "summary": "An itemized receipt points to a covered product. An exclusion still needs a personal answer.",
+      "next_step": "Return to your assistant and answer the employment/household question above. Do not treat the receipt alone as proof of eligibility.",
+      "eligibility": "strong",
+      "deadline": "2026-11-30",
+      "payout": "Pro rata / amount unknown",
+      "evidence": [
+        "Demo receipt identifies Harbor Home citrus cleaner during the example period."
+      ],
+      "criteria": [
+        {
+          "criterion": "Covered product and date",
+          "state": "supported",
+          "detail": "The receipt identifies both."
+        },
+        {
+          "criterion": "Class exclusions",
+          "state": "unknown",
+          "detail": "Were you or anyone in your household employed by Harbor Home during the example class period, January 2020 through August 2026?"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Example rules",
+          "url": "https://example.com/harbor"
+        }
+      ]
+    },
+    {
+      "key": "demo-cloudline",
+      "title": "Cloudline account privacy",
+      "lane": "discoveries",
+      "status": "Usage date needed",
+      "summary": "A welcome email establishes an account relationship, but the rules require actual use during a particular period.",
+      "next_step": "Check your own records or confirm whether you used the service during the period.",
+      "eligibility": "possible",
+      "payout": "Unknown",
+      "evidence": [
+        "Demo welcome message shows account creation, not service use."
+      ],
+      "criteria": [
+        {
+          "criterion": "Use during the class period",
+          "state": "unknown",
+          "detail": "A welcome message alone does not establish this."
+        }
+      ]
+    },
+    {
+      "key": "demo-bright",
+      "title": "Bright Market delivery fees",
+      "lane": "tracking",
+      "status": "Filed / awaiting distribution",
+      "summary": "Your example filing is recorded. No new submission is needed.",
+      "next_step": "Watch for an administrator update; record any payment when received.",
+      "payout": "Expected amount not yet determined",
+      "details": [
+        {
+          "label": "Filed date",
+          "value": "2026-09-12"
+        }
+      ]
+    },
+    {
+      "key": "demo-paid",
+      "title": "CityLink service credits",
+      "lane": "payments",
+      "status": "Payment received",
+      "summary": "The example payment is recorded separately from expected payouts.",
+      "next_step": "No action required. Keep this record for reference.",
+      "payout": "$24 received",
+      "details": [
+        {
+          "label": "Payment date",
+          "value": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "key": "demo-pending",
+      "title": "Maple subscription investigation",
+      "lane": "watchlist",
+      "status": "Investigation / no open claim",
+      "summary": "A community lead is relevant, but there is no verified settlement claim process.",
+      "next_step": "Monitor official developments. Matching email does not make this a payable claim."
+    },
+    {
+      "key": "demo-closed",
+      "title": "Ridgeway retail pricing",
+      "lane": "closed",
+      "status": "Claim window closed",
+      "summary": "Retained as historical context, without claim credentials.",
+      "next_step": "No current filing action. A deadline change needs official verification.",
+      "deadline": "2026-08-01"
+    },
+    {
+      "key": "demo-security",
+      "title": "Unverified payment invitation",
+      "lane": "safety",
+      "status": "Do not follow the message link",
+      "summary": "A payment request could not be linked to a verified administrator. The suspect address is not clickable.",
+      "next_step": "Use an independently verified administrator source before sharing information."
+    }
+  ]
+}

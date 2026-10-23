@@ -1,0 +1,13 @@
+# Local working state must not enter public releases.
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+/private/
+/reports/
+*.csv
+*.bak
+skills/*/output/

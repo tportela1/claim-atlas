@@ -1,0 +1,10 @@
+{
+  "demo_sha256": "15db685487090615294fe71002a3e2ab08d6a103042e10e02c80ea5d55154823",
+  "review": "docs/design-review.md",
+  "desktop": "default browser viewport",
+  "mobile": "375x812 requested; 360 CSS content pixels",
+  "screenshots": [
+    "preview-desktop.png",
+    "preview-mobile.png"
+  ]
+}

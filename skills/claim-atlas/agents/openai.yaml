@@ -1,0 +1,9 @@
+interface:
+  display_name: "Claim Atlas"
+  short_description: "Discover settlements and match your email evidence"
+  icon_small: "./assets/app-icon.svg"
+  icon_large: "./assets/logo-lockup.svg"
+  brand_color: "#244DD8"
+  default_prompt: "Use $claim-atlas to help me choose between scanning claim notices and matching public settlements to my chosen email account."
+policy:
+  allow_implicit_invocation: true
