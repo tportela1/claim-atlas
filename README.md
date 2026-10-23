@@ -21,7 +21,9 @@ The report shows potential matches with the facts that support them, the facts s
 
 [Open the fictitious report demo](docs/demo-report.html). Download the HTML to view it locally; GitHub's file view displays source. The example cases are invented.
 
-![Claim Atlas report preview](docs/preview-desktop.png)
+[![Illustrated Claim Atlas overview with fictitious cases](docs/preview-desktop.svg)](docs/preview-desktop.svg)
+
+*Scalable illustrated overview. The HTML demo contains the full report.*
 
 ## Install
 

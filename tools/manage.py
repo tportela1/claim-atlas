@@ -18,7 +18,10 @@ def sources():
     for path in sorted(SKILL.rglob('*'), key=lambda item: item.relative_to(SKILL).as_posix()):
         relative = path.relative_to(SKILL)
         if path.is_file() and not {'output','__pycache__'} & set(relative.parts) and path.suffix != '.pyc' and path.name != '.DS_Store':
-            yield relative.as_posix(), path.read_bytes().replace(b'\r\n',b'\n')
+            payload = path.read_bytes()
+            if path.suffix in {'.md','.py','.json','.svg','.css','.yaml'} or path.name == 'LICENSE':
+                payload = payload.replace(b'\r\n',b'\n')
+            yield relative.as_posix(), payload
 
 def write(path, content):
     path = Path(path); path.parent.mkdir(parents=True, exist_ok=True)

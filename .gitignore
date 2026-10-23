@@ -11,3 +11,6 @@ Thumbs.db
 *.csv
 *.bak
 skills/*/output/
+
+# Optional artwork-export dependency
+node_modules/

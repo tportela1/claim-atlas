@@ -35,3 +35,7 @@ The regenerated version was checked at desktop and requested 375px phone width. 
 After the user found the charcoal direction too muted, a designer agent regenerated the palette and a product agent reviewed what each color communicates. The current design uses a cobalt hero, citrus primary action, coral corner accent, colorful metric tiles, a warm cream canvas and white evidence cards. Blue signals review/supported facts, amber unresolved work, and teal recorded payments. Completed scope has a cool badge; historical scope stays neutral instead of falsely signaling an unresolved scan.
 
 Desktop and 375px requested mobile previews were reviewed. Mobile content measured 360px with no horizontal overflow. The designer calculated contrast for the primary text/background pairs above 4.5:1. Existing keyboard focus, reduced-motion and print behavior remain. Preview images show this latest direction, not the earlier charcoal design.
+
+## Repository image quality
+
+Repository presentations now use scalable SVG masters and true high-resolution PNG exports. The report overview is labeled illustrative. Actual browser screenshots are retained separately as JPEG captures under docs/screenshots; they are not described as high-resolution exports. See artwork.md for dimensions and reproduction.

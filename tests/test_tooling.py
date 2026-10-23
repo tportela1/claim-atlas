@@ -22,9 +22,26 @@ class Distribution(unittest.TestCase):
             manage.install('codex',parent)
             self.assertEqual((target/'output/private.txt').read_text(),'user-owned')
             self.assertFalse((target/'obsolete.txt').exists()); self.assertTrue(other.exists())
+    def test_png_exports_have_real_png_headers_and_sufficient_resolution(self):
+        import struct
+        for folder in (ROOT/'docs',ROOT/'skills/claim-atlas/assets'):
+            for image in folder.glob('*.png'):
+                self.assertEqual(image.read_bytes()[:8],b'\x89PNG\r\n\x1a\n',image.name)
+        for relative,minimum in [('docs/logo-preview.png',2400),('docs/preview-desktop.png',2400),('skills/claim-atlas/assets/logo-mark.png',1024)]:
+            width,height=struct.unpack('>II',(ROOT/relative).read_bytes()[16:24])
+            self.assertGreaterEqual(width,minimum)
+            self.assertGreater(height,0)
+
     def test_resource_order_is_platform_independent(self):
         names=[name for name,_ in manage.sources()]
         self.assertEqual(names,sorted(names))
+
+    def test_binary_assets_preserve_all_bytes(self):
+        with tempfile.TemporaryDirectory() as temp:
+            skill=Path(temp); payload=b'\x89PNG\r\n\x1a\nraw\r\nbytes'
+            (skill/'mark.png').write_bytes(payload)
+            with patch.object(manage,'SKILL',skill):
+                self.assertEqual(dict(manage.sources())['mark.png'],payload)
 
     def test_release_is_deterministic_and_private_files_excluded(self):
         with tempfile.TemporaryDirectory() as temp:

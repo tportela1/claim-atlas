@@ -4,9 +4,26 @@
   "desktop": "default browser viewport",
   "mobile": "375x812 requested; 360 CSS content pixels",
   "screenshots": [
-    "preview-desktop.png",
-    "preview-mobile.png"
+    "screenshots/preview-desktop.jpg",
+    "screenshots/preview-mobile.jpg"
   ],
   "direction": "Signal Blue / cobalt hero / citrus and coral accents / white reading cards",
-  "logo": "ATLA-inspired arrow / cobalt / air arcs / citrus accent"
+  "logo": "ATLA-inspired arrow / cobalt / air arcs / citrus accent",
+  "readme_preview": {
+    "source": "preview-desktop.svg",
+    "kind": "illustrated overview, not screenshot",
+    "png": "preview-desktop.png",
+    "dimensions": [
+      2880,
+      2240
+    ]
+  },
+  "logo_presentation": {
+    "source": "logo-preview.svg",
+    "png": "logo-preview.png",
+    "dimensions": [
+      2560,
+      1600
+    ]
+  }
 }
