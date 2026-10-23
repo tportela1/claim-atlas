@@ -71,6 +71,28 @@ class ReportTests(unittest.TestCase):
         self.data['coverage'] = [{'source':'Notice scan','status':'complete','detail':'Selected scope completed'}]
         self.assertIn('No matches found in the checked scope.',report.render(self.data))
 
+    def test_supporting_email_is_openable_escaped_and_separate_from_rules(self):
+        self.data['cases'][1]['evidence_links'] = [{'label':'<receipt>','url':'https://example.com/fictitious-mail','provider':'Demo','date':'2026-01-01','note':'Product & date'}]
+        html=report.render(self.data)
+        self.assertIn('Supporting emails',html)
+        self.assertIn('Open supporting email',html)
+        self.assertIn('target="_blank"',html)
+        self.assertIn('&lt;receipt&gt;',html)
+        self.assertIn('Product &amp; date',html)
+        self.assertIn('save or print a copy',html)
+
+    def test_unsafe_or_malformed_email_evidence_is_rejected(self):
+        for url in ['javascript:alert(1)','http://example.com','https://user:secret@example.com']:
+            self.data['cases'][1]['evidence_links']=[{'label':'Mail','url':url}]
+            with self.subTest(url=url),self.assertRaises(ValueError):report.render(self.data)
+        self.data['cases'][1]['evidence_links']=[{'label':'Mail','url':'https://example.com/mail','date':'not a date'}]
+        with self.assertRaises(ValueError):report.render(self.data)
+
+    def test_email_links_work_without_observation_text(self):
+        self.data['cases'][1]['evidence']=[]
+        self.data['cases'][1]['evidence_links']=[{'label':'Mail','url':'https://example.com/mail'}]
+        self.assertIn('Supporting emails',report.render(self.data))
+
     def test_duplicate_owner_rejected(self):
         self.data['cases'].append(copy.deepcopy(self.data['cases'][0]))
         with self.assertRaises(ValueError): report.render(self.data)

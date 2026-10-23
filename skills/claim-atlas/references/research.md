@@ -29,3 +29,7 @@ Corroborate actual portal hostname and case identity. Display names, personalize
 Page every mail result; split dense date windows when truncated. Track traversal and interpretation separately. End each candidate as matched, unresolved, unrelated, closed, pending or source/provider-limited. Blocked sources never become no-email-evidence. Retain completed checkpoints and disclose limits without overclaiming that the whole web or mailbox was checked.
 
 Community contributions contain public case facts and URLs only. Do not subscribe, contact posters, fill attorney intake, upload personal evidence or publish mail data. There is no hosted shared personal-data catalog.
+
+## Recoverable email evidence
+
+When a message supports a finding, capture the exact permalink returned by the connected provider, its date/provider and a short relevant description. Store it under evidence_links in the private companion data, separate from public rule links. Do not guess a Gmail/Outlook URL, use a search URL as if it identified a message, or imply that the user has downloaded proof. If a provider offers no stable link, say so and give the user a minimal way to locate the message. Never persist raw mail or unrelated basket details. The user opens the message to save/print a copy and independently decides what to upload. No attachments are sent or uploaded by this feature.

@@ -76,6 +76,18 @@ def validate(data):
                 raise ValueError("Invalid case text")
         if not all(isinstance(v, str) for v in case.get("evidence", [])):
             raise ValueError("Evidence must be text")
+        if not isinstance(case.get("evidence_links", []), list):
+            raise ValueError("Supporting email links must be a list")
+        for email in case.get("evidence_links", []):
+            if not isinstance(email, dict) or not safe_url(email.get("url")) or not isinstance(email.get("label"), str) or not email["label"].strip():
+                raise ValueError("Supporting emails require a label and safe HTTPS permalink")
+            for field in ("provider", "note"):
+                if field in email and not isinstance(email[field], str):
+                    raise ValueError("Invalid supporting email text")
+            if email.get("date"):
+                iso(email["date"])
+        if case["lane"] == "safety" and case.get("evidence_links"):
+            raise ValueError("Security notices must keep links inert")
         for row in case.get("criteria", []):
             if row.get("state") not in STATES or not all(isinstance(row.get(k), str) for k in ("criterion", "detail")):
                 raise ValueError("Invalid criterion")
@@ -113,8 +125,9 @@ def e(value):
     return escape(str(value), quote=True)
 
 
-def link(label, url):
-    return f'<a href="{e(url)}" rel="noopener noreferrer">{e(label)} <span aria-hidden="true">↗</span></a>'
+def link(label, url, new_tab=False):
+    target = ' target="_blank"' if new_tab else ''
+    return f'<a{target} href="{e(url)}" rel="noopener noreferrer">{e(label)} <span aria-hidden="true">↗</span></a>'
 
 
 def deadline_label(value, as_of):
@@ -140,7 +153,14 @@ def render(data):
             if c.get(field):
                 value = deadline_label(c[field], data["date"]) if field == "deadline" else c[field]
                 facts += f'<div><dt>{label}</dt><dd>{e(value)}</dd></div>'
-        evidence = '<div class="evidence"><h4>What supports this</h4><ul>' + "".join(f'<li>{e(v)}</li>' for v in c.get("evidence", [])) + '</ul></div>' if c.get("evidence") else ''
+        observations = '<ul>' + ''.join(f'<li>{e(value)}</li>' for value in c.get('evidence', [])) + '</ul>' if c.get('evidence') else ''
+        emails = ''
+        for email in c.get('evidence_links', []):
+            metadata = ' · '.join(e(email[field]) for field in ('provider', 'date') if email.get(field))
+            note = f'<p>{e(email["note"])}</p>' if email.get('note') else ''
+            emails += f'<li><div><strong>{e(email["label"])}</strong><span>{metadata}</span></div>{note}{link("Open supporting email", email["url"], new_tab=True)}</li>'
+        mail_panel = '<div class="supporting-emails"><h4>Supporting emails</h4><ul>' + emails + '</ul><p class="evidence-help">Open the message to save or print a copy. Check the claim instructions for accepted proof formats before uploading.</p></div>' if emails else ''
+        evidence = '<div class="evidence"><h4>What supports this</h4>' + observations + mail_panel + '</div>' if observations or emails else ''
         criteria = '<div class="criteria"><h4>Eligibility check</h4>' + "".join(f'<div class="criterion"><span class="state {e(r["state"])}">{e(r["state"])}</span><div><strong>{e(r["criterion"])}</strong><p>{e(r["detail"])}</p></div></div>' for r in c.get("criteria", [])) + '</div>' if c.get("criteria") else ''
         details = '<details><summary>Tracking details</summary><dl class="facts">' + "".join(f'<div><dt>{e(r["label"])}</dt><dd>{e(r["value"])}</dd></div>' for r in c.get("details", [])) + '</dl></details>' if c.get("details") else ''
         sources = ' · '.join(link(r["label"], r["url"]) for r in c.get("sources", []))

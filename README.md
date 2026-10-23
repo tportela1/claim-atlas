@@ -17,7 +17,7 @@ A general request presents these two choices, then asks which connected mailbox 
 
 ## Read the evidence, then decide
 
-The report shows potential matches with the facts that support them, the facts still missing, and a next step. Company-name overlap alone is a lead. Missing mail is not proof of ineligibility. A pending investigation is not an open claim. You decide whether you can truthfully meet the official requirements.
+The report shows potential matches with the facts that support them, the facts still missing, and a next step. Supporting emails have direct links so you can open the original message and save or print a copy if proof is needed. Private message links never enter public examples. Company-name overlap alone is a lead. Missing mail is not proof of ineligibility. A pending investigation is not an open claim. You decide whether you can truthfully meet the official requirements.
 
 [Open the fictitious report demo](docs/demo-report.html). Download the HTML to view it locally; GitHub's file view displays source. The example cases are invented.
 

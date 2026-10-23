@@ -1,5 +1,5 @@
 {
-  "demo_sha256": "95b3dcbd2efca1cf4150c74eaa2a47c3553c4f5d084980c92c79f1906d7abb33",
+  "demo_sha256": "781b29ece57f66fceea2a67c81e1821d991d3b5625dc722d2223c04ddfa637de",
   "review": "docs/design-review.md",
   "desktop": "default browser viewport",
   "mobile": "375x812 requested; 360 CSS content pixels",

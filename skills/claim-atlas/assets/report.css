@@ -127,3 +127,12 @@ footer{border-top:1px solid var(--line);margin-top:64px;padding:27px 0;font-size
 @media(max-width:800px){main{padding-top:32px}.hero{padding:38px 32px 32px;border-radius:20px}.hero h1{font-size:clamp(40px,6.8vw,59px)}.hero .overview>div{padding:16px}}
 @media(max-width:520px){main{padding-top:20px}.hero{padding:30px 23px 26px;border-radius:16px;margin-bottom:18px}.hero:after{width:68px;height:68px;border-width:13px;right:-23px;top:-23px;border-radius:17px}.hero h1{font-size:39px;line-height:1.08}.hero .lede{font-size:14px}.hero .overview{gap:7px}.hero .overview>div{padding:12px 10px;border-radius:8px;gap:7px}.hero .overview strong{font-size:28px}.hero .overview span{font-size:10px}.hero .continuation{font-size:11px}.hero .start-link{padding:12px}.demo-note{font-size:10px;line-height:1.7;padding:7px 9px;margin-bottom:22px}.sidebar nav a{background:#f2f5ff;border-color:#e3eafa}.sidebar nav b{background:#e0e8ff}}
 @media print{.hero{background:#fff;color:#000;border:0;border-radius:0;padding:0 0 20px;margin:0;box-shadow:none}.hero:after{display:none}.hero h1,.hero .eyebrow,.hero .lede,.hero .continuation{color:#222}.hero .overview>div{color:#222;background:#f5f5f5;border:1px solid #ccc;padding:12px}.hero .overview>div:nth-child(2),.hero .overview>div:nth-child(3){color:#222;background:#f5f5f5}.hero .overview span{color:#222}.hero .empty-outcome{background:#fff;color:#000}.demo-note{background:#fff;border-color:#aaa;color:#333}.case-card{border-top-width:1px!important}.sources a,.coverage-link,.back-to-top{color:#000}}
+/* Private evidence references stay beside the finding, separate from public rules. */
+.supporting-emails{margin-top:20px;padding-top:18px;border-top:1px solid #dbe3f1}
+.supporting-emails>ul{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.supporting-emails>ul>li{background:white;border:1px solid #dbe3f1;border-radius:12px;padding:16px}
+.supporting-emails li>div{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.supporting-emails strong{font-size:14px}.supporting-emails span{font-size:12px;color:var(--muted)}
+.supporting-emails li p{font-size:13px;color:var(--muted);margin:8px 0}
+.supporting-emails a{display:inline-block;margin-top:10px;color:#244dd8;font-weight:650;font-size:13px}
+.supporting-emails .evidence-help{font-size:12px;color:var(--muted);margin-top:12px;max-width:650px}
