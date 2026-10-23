@@ -137,7 +137,7 @@ SOFTWARE.
 
 ```css
 /* Claim Atlas — quiet, editorial workspace. No external fonts or assets. */
-:root{color-scheme:light;--ink:#171717;--paper:#f7f7f5;--surface:#fff;--text:#222;--muted:#62625e;--line:#e4e4df;--blue:#252525;--soft:#efefec;--amber:#80520e;--radius:18px}
+:root{color-scheme:light;--ink:#142449;--paper:#faf9f4;--surface:#fff;--text:#1c2945;--muted:#616a7b;--line:#e1e5ee;--blue:#244dd8;--soft:#edf2ff;--amber:#80520e;--radius:18px}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:30px}
@@ -151,15 +151,15 @@ h1{font-size:clamp(42px,5.6vw,76px);font-weight:600;line-height:1.03;letter-spac
 h2{font-size:clamp(26px,3vw,34px);font-weight:580;line-height:1.17;letter-spacing:-.045em}
 h3{font-size:27px;font-weight:600;line-height:1.2;letter-spacing:-.035em;text-wrap:balance}
 h4{font-size:12px;line-height:1.5;font-weight:650;letter-spacing:.07em;text-transform:uppercase;margin-bottom:14px;color:var(--muted)}
-.sidebar{width:100%;padding:26px max(28px,calc((100vw - 1120px)/2));background:var(--surface);border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;column-gap:24px;row-gap:22px;align-items:center}
+.sidebar{width:100%;padding:26px max(28px,calc((100vw - 1120px)/2));background:var(--surface);border-top:4px solid var(--blue);border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;column-gap:24px;row-gap:22px;align-items:center}
 .brand{display:flex;gap:11px;align-items:center;font-size:21px;font-weight:650;letter-spacing:-.055em;line-height:1.1}
-.brand svg{display:block;width:34px;height:34px;flex:none;filter:grayscale(1)}
+.brand svg{display:block;width:34px;height:34px;flex:none;filter:none}
 .brand small{display:block;margin-top:5px;color:var(--muted);font-size:11px;font-weight:450;letter-spacing:0}
 .nav-label{display:none}
 .sidebar nav{grid-column:1/-1;grid-row:2;display:flex;flex-wrap:wrap;gap:6px}
 .sidebar nav a{display:flex;gap:9px;align-items:center;padding:8px 12px;min-height:40px;color:#545450;border:1px solid transparent;border-radius:9px;text-decoration:none;font-size:12px;font-weight:500;transition:background .15s ease,border-color .15s ease}
-.sidebar nav a:hover{background:#f3f3f0;border-color:var(--line);color:var(--ink)}
-.sidebar nav b{font-size:11px;font-weight:500;color:#686863;background:#efefeb;padding:1px 5px;border-radius:4px;font-variant-numeric:tabular-nums}
+.sidebar nav a:hover{background:#edf2ff;border-color:#d8e1ff;color:#244dd8}
+.sidebar nav b{font-size:11px;font-weight:500;color:#244dd8;background:#edf2ff;padding:1px 5px;border-radius:4px;font-variant-numeric:tabular-nums}
 .coverage-link{grid-column:2;grid-row:1;font-size:12px;font-weight:500;text-decoration:none;white-space:nowrap;padding:10px 0}
 .local-note{display:none}
 main{width:min(100% - 56px,1120px);margin:0 auto;padding:76px 0 32px}
@@ -172,22 +172,22 @@ main{width:min(100% - 56px,1120px);margin:0 auto;padding:76px 0 32px}
 .overview>div:first-child{padding-left:0;border-left:0}
 .overview strong{font-size:37px;line-height:1.1;letter-spacing:-.05em;font-weight:550;font-variant-numeric:tabular-nums}
 .overview span{font-size:12px;color:var(--muted)}
-.start-link,.official-action a{display:inline-flex;justify-content:center;align-items:center;gap:12px;min-height:46px;background:var(--ink);color:#fff;text-decoration:none;border:1px solid var(--ink);border-radius:10px;padding:11px 18px;font-size:13px;line-height:1.5;font-weight:550;box-shadow:0 2px 3px #0000000a;transition:background .15s ease,box-shadow .15s ease}
+.start-link,.official-action a{display:inline-flex;justify-content:center;align-items:center;gap:12px;min-height:46px;background:var(--blue);color:#fff;text-decoration:none;border:1px solid var(--blue);border-radius:10px;padding:11px 18px;font-size:13px;line-height:1.5;font-weight:550;box-shadow:0 2px 3px #0000000a;transition:background .15s ease,box-shadow .15s ease}
 .start-link{margin-top:32px}
-.start-link:hover,.official-action a:hover{background:#383838;border-color:#383838;box-shadow:0 3px 9px #00000012}
+.start-link:hover,.official-action a:hover{background:#183bb7;border-color:#183bb7;box-shadow:0 3px 9px #00000012}
 .continuation{font-size:12px;line-height:1.7;color:#707069;max-width:740px;margin-top:17px}
-.scope{display:flex;gap:20px;align-items:center;padding:20px 24px;margin:0 0 58px;border:1px solid var(--line);border-radius:12px;background:#eeeeea;font-size:12px}
+.scope{display:flex;gap:20px;align-items:center;padding:20px 24px;margin:0 0 58px;border:1px solid var(--line);border-radius:12px;background:#eef3ff;font-size:12px}
 .scope-status{display:inline-flex;flex:none;background:#fff8e8;color:var(--amber);border:1px solid #eadcbf;padding:5px 9px;border-radius:6px;font-size:11px;font-weight:550}
 .scope strong{font-weight:600;font-size:13px}
 .scope p{color:var(--muted);margin-top:3px}
 section{margin-top:56px;padding-top:30px;border-top:1px solid #d7d7d0;scroll-margin-top:30px}
 .section-heading{display:flex;gap:24px;justify-content:space-between;align-items:flex-start;margin-bottom:27px}
 .section-heading p:not(.eyebrow){font-size:13px;color:var(--muted);margin-top:10px;max-width:650px}
-.section-count{font-size:14px;font-weight:500;line-height:1.5;min-width:34px;padding:5px 8px;text-align:center;color:#64645f;background:#eaeae5;border-radius:8px;font-variant-numeric:tabular-nums}
+.section-count{font-size:14px;font-weight:500;line-height:1.5;min-width:34px;padding:5px 8px;text-align:center;color:#244dd8;background:#e8edff;border-radius:8px;font-variant-numeric:tabular-nums}
 .case-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:34px 38px;margin-bottom:18px;box-shadow:0 3px 8px #17171702;scroll-margin-top:30px}
 .case-card:target{outline:2px solid #a7a7a0;outline-offset:4px}
 .badges{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:19px}
-.badge{font-size:11px;font-weight:550;line-height:1.5;border:1px solid #dcdcd5;background:#f4f4f1;color:#45453f;border-radius:6px;padding:4px 8px}
+.badge{font-size:11px;font-weight:550;line-height:1.5;border:1px solid #dcdcd5;background:#eef3ff;color:#294d9c;border-radius:6px;padding:4px 8px}
 .badge.neutral{color:#62625c;background:transparent;border-color:#e8e8e3}
 .case-summary{font-size:14px;line-height:1.75;color:var(--muted);margin-top:13px;max-width:780px}
 .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px 30px;margin:27px 0}
@@ -195,7 +195,7 @@ section{margin-top:56px;padding-top:30px;border-top:1px solid #d7d7d0;scroll-mar
 .facts>div{min-width:0}
 .facts dt{font-size:11px;line-height:1.5;color:var(--muted);margin-bottom:6px}
 .facts dd{font-size:13px;font-weight:550;line-height:1.65;margin:0}
-.evidence{background:#f6f6f3;border:1px solid #edede7;border-radius:10px;padding:21px 24px;margin-top:25px}
+.evidence{background:#f3f6fd;border:1px solid #e6ecf8;border-radius:10px;padding:21px 24px;margin-top:25px}
 .evidence ul{margin:0;padding-left:18px;font-size:13px;line-height:1.8;color:#4b4b46}
 .evidence li+li{margin-top:7px}
 .evidence li::marker{color:#8d8d85}
@@ -205,7 +205,7 @@ section{margin-top:56px;padding-top:30px;border-top:1px solid #d7d7d0;scroll-mar
 .criterion strong{font-size:13px;font-weight:600;line-height:1.6}
 .criterion p{font-size:12px;line-height:1.75;color:var(--muted);margin-top:4px}
 .state{display:inline-flex;justify-self:start;align-items:center;max-width:100%;font-size:10px;line-height:1.6;font-weight:550;border-radius:5px;padding:4px 7px;background:#edede8;color:#5b5b54;letter-spacing:.015em;overflow-wrap:anywhere}
-.state.supported,.state.complete{background:#edf2eb;color:#395336}
+.state.supported,.state.complete{background:#eaf0ff;color:#294d9c}
 .state.unknown,.state.partial,.state.blocked{background:#fbf0d9;color:#79500e}
 .state.contradicted{background:#faeaea;color:#8e3933}
 .next-step{border-top:1px solid var(--line);padding-top:21px;margin-top:24px}
@@ -234,26 +234,37 @@ footer{border-top:1px solid var(--line);margin-top:64px;padding:27px 0;font-size
 @media(max-width:520px){.sidebar{padding:20px;gap:18px 12px}.brand{font-size:20px}.brand svg{width:29px;height:29px}.brand small{font-size:10px}.coverage-link{font-size:11px}.sidebar nav{gap:5px}.sidebar nav a{padding:6px 8px;min-height:35px;background:#f7f7f3;border-color:#ebebe5;font-size:11px}.sidebar nav b{background:#e9e9e1}main{width:calc(100% - 36px);padding-top:42px}h1{font-size:44px;letter-spacing:-.06em}h2{font-size:27px}h3{font-size:24px}.eyebrow{font-size:10px;letter-spacing:.08em;margin-bottom:21px}.lede{font-size:15px;margin-top:21px}.hero{padding-bottom:30px}.overview{margin-top:28px}.overview>div{padding:0 12px;gap:7px}.overview strong{font-size:31px}.overview span{font-size:11px;line-height:1.5}.start-link{width:100%;margin-top:27px;font-size:13px}.continuation{font-size:11px;line-height:1.75}.scope{display:block;margin-bottom:40px}.scope-status{margin-bottom:11px}.scope strong{font-size:12px}.scope p{font-size:11px}section{margin-top:42px;padding-top:25px}.section-heading{gap:16px;margin-bottom:22px}.section-heading p:not(.eyebrow){font-size:12px}.section-count{font-size:12px;min-width:30px}.case-card{padding:24px 21px;border-radius:14px}.badges{gap:6px;margin-bottom:17px}.badge{font-size:10px}.case-summary{font-size:13px}.facts{grid-template-columns:1fr;gap:18px;margin:24px 0}.facts dt{font-size:11px}.facts dd{font-size:13px}.evidence{padding:18px;margin-top:22px}.evidence ul{font-size:12px}.criterion{grid-template-columns:1fr;gap:9px;padding:16px 0}.criterion strong{font-size:13px}.criterion p{font-size:12px}.state{font-size:10px}.next-step p{font-size:13px}.official-action a{width:100%;text-align:center;font-size:12px}.sources{font-size:11px}.coverage-row p{font-size:12px}footer{margin-top:48px;font-size:11px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 @media print{html{scroll-behavior:auto}body{background:#fff;font-size:11pt;color:#000}.sidebar,.skip-link,.back-to-top,.start-link{display:none}main{width:100%;margin:0;padding:0}.hero{padding-bottom:18px}h1{font-size:32pt;letter-spacing:-1pt}.lede{font-size:11pt}.overview{margin-top:20px}.overview strong{font-size:25pt}.continuation{font-size:9pt}.scope{margin-bottom:25px;background:#fff}.case-card{break-inside:avoid;padding:20px;box-shadow:none;border-color:#ccc}section{margin-top:28px;padding-top:20px;break-inside:auto}.section-heading{break-after:avoid}h2{font-size:20pt}h3{font-size:17pt}.official-action a{color:#000;background:#fff;border-color:#777}.evidence{background:#fafafa}.facts{grid-template-columns:repeat(3,minmax(0,1fr))}.criterion{grid-template-columns:100px 1fr}a{color:#000}.state{color:#333!important;background:#eee!important}footer{margin-top:30px}}
-/* A dark introduction frames the next decision; long evidence remains on light paper. */
-.hero{background:#141414;color:#fafaf8;padding:54px 54px 42px;border:1px solid #292929;border-radius:24px;margin-bottom:24px;box-shadow:0 14px 36px #00000008}
+/* Signal Blue: clear research, with an optimistic and distinctive first impression. */
+.hero{position:relative;isolation:isolate;overflow:hidden;background:#244dd8;color:#fff;padding:54px 54px 42px;border:1px solid #244dd8;border-radius:24px;margin-bottom:24px;box-shadow:0 16px 40px #244dd819}
+.hero:after{content:"";position:absolute;z-index:-1;right:-24px;top:-24px;width:100px;height:100px;border:18px solid #ff927c;border-radius:24px;transform:rotate(18deg);pointer-events:none}
 .hero h1{color:#fff;max-width:920px}
-.hero .eyebrow{color:#b4b4ac}
-.hero .eyebrow:before{background:#c4c4ba}
-.hero .lede{color:#bcbcb5}
-.hero .overview>div{border-color:#3c3c37}
-.hero .overview span{color:#aeaea5}
-.hero .start-link{background:#fafaf7;color:#171717;border-color:#fafaf7;box-shadow:none}
-.hero .start-link:hover{background:#deded6;border-color:#deded6}
-.hero .continuation{color:#abab9f}
-.hero .empty-outcome{background:#22221f;border-color:#46463c;color:#d4d4ca}
+.hero .eyebrow{color:#e1e9ff}
+.hero .eyebrow:before{background:#d7f27b}
+.hero .lede{color:#e1e9ff}
+.hero .overview{gap:12px;max-width:740px;margin-top:32px}
+.hero .overview>div{border:0;border-radius:12px;min-width:0;flex:1;padding:18px 20px;background:#e9efff;color:#193886;gap:8px}
+.hero .overview>div:nth-child(2){background:#e8f3bc;color:#36480e}
+.hero .overview>div:nth-child(3){background:#ffe0d6;color:#763623}
+.hero .overview strong{font-size:36px;font-weight:600}
+.hero .overview span{color:inherit;font-size:12px;font-weight:500;line-height:1.5}
+.hero .start-link{background:#d7f27b;color:#263708;border-color:#d7f27b;box-shadow:0 3px 0 #142e8d;margin-top:28px}
+.hero .start-link:hover{background:#e3fa9e;border-color:#e3fa9e;box-shadow:0 4px 0 #142e8d}
+.hero .start-link:focus-visible{outline-color:#fff}
+.hero .continuation{color:#e1e9ff}
+.hero .empty-outcome{background:#1c43c0;border-color:#839ff9;color:#fff}
+#next-steps .case-card{border-top:3px solid #244dd8}
+#discoveries .case-card{border-top:3px solid #c4d0f2}
+#verification .case-card{border-top:3px solid #dfb653}
+.scope-status.complete{background:#e9efff;border-color:#d0dbff;color:#294d9c}.scope-status.historical{background:#f0f1f4;border-color:#dce0e8;color:#5d6575}.scope-status.partial{background:#fff4da;border-color:#ead7ac;color:#80520e}
+#payments .case-card{border-top:3px solid #2a8279}#payments .badge{background:#e6f4ef;color:#24665f;border-color:#cce8df}#payments .facts dd{color:#24665f}
+.next-step>span{color:#244dd8}
+.sources a,.coverage-link,.back-to-top{color:#244dd8}
+.demo-note{display:inline-flex;align-items:center;gap:8px;margin:0 0 25px;padding:7px 10px;border:1px solid #7d99f5;border-radius:7px;background:#2147c8;color:#f0f4ff;font-size:11px;line-height:1.6}
+.demo-note:before{content:"";width:5px;height:5px;border-radius:50%;background:#d7f27b;flex:none}
 @media(min-width:1400px){.hero{padding:62px 60px 46px}}
-@media(max-width:800px){main{padding-top:32px}.hero{padding:38px 32px 32px;border-radius:20px}.hero h1{font-size:clamp(40px,6.8vw,59px)}}
-@media(max-width:520px){main{padding-top:20px}.hero{padding:30px 23px 26px;border-radius:16px;margin-bottom:18px}.hero h1{font-size:39px;line-height:1.08}.hero .lede{font-size:14px}.hero .overview>div{padding:0 10px}.hero .overview>div:first-child{padding-left:0}.hero .overview strong{font-size:29px}.hero .overview span{font-size:10px}.hero .continuation{font-size:11px}.hero .start-link{padding:12px}}
-@media print{.hero{background:#fff;color:#000;border:0;border-radius:0;padding:0 0 20px;margin:0;box-shadow:none}.hero h1,.hero .eyebrow,.hero .lede,.hero .overview span,.hero .continuation{color:#222}.hero .overview>div{border-color:#ccc}.hero .empty-outcome{background:#fff;color:#000}}
-.demo-note{display:inline-flex;align-items:center;gap:8px;margin:0 0 25px;padding:7px 10px;border:1px solid #44443e;border-radius:7px;background:#22221f;color:#d1d1c7;font-size:11px;line-height:1.6}
-.demo-note:before{content:"";width:5px;height:5px;border-radius:50%;background:#b8b8a7;flex:none}
-@media(max-width:520px){.demo-note{font-size:10px;line-height:1.7;padding:7px 9px;margin-bottom:22px}}
-@media print{.demo-note{background:#fff;border-color:#aaa;color:#333}}
+@media(max-width:800px){main{padding-top:32px}.hero{padding:38px 32px 32px;border-radius:20px}.hero h1{font-size:clamp(40px,6.8vw,59px)}.hero .overview>div{padding:16px}}
+@media(max-width:520px){main{padding-top:20px}.hero{padding:30px 23px 26px;border-radius:16px;margin-bottom:18px}.hero:after{width:68px;height:68px;border-width:13px;right:-23px;top:-23px;border-radius:17px}.hero h1{font-size:39px;line-height:1.08}.hero .lede{font-size:14px}.hero .overview{gap:7px}.hero .overview>div{padding:12px 10px;border-radius:8px;gap:7px}.hero .overview strong{font-size:28px}.hero .overview span{font-size:10px}.hero .continuation{font-size:11px}.hero .start-link{padding:12px}.demo-note{font-size:10px;line-height:1.7;padding:7px 9px;margin-bottom:22px}.sidebar nav a{background:#f2f5ff;border-color:#e3eafa}.sidebar nav b{background:#e0e8ff}}
+@media print{.hero{background:#fff;color:#000;border:0;border-radius:0;padding:0 0 20px;margin:0;box-shadow:none}.hero:after{display:none}.hero h1,.hero .eyebrow,.hero .lede,.hero .continuation{color:#222}.hero .overview>div{color:#222;background:#f5f5f5;border:1px solid #ccc;padding:12px}.hero .overview>div:nth-child(2),.hero .overview>div:nth-child(3){color:#222;background:#f5f5f5}.hero .overview span{color:#222}.hero .empty-outcome{background:#fff;color:#000}.demo-note{background:#fff;border-color:#aaa;color:#333}.case-card{border-top-width:1px!important}.sources a,.coverage-link,.back-to-top{color:#000}}
 ```
 
 
@@ -329,7 +340,7 @@ Each case has a unique key, title, lane, status, summary, next_step. Optional el
 
 Lane destinations belong to Claim Atlas: next-steps, discoveries, verification, tracking with nested payments, watchlist, closed, safety. Filing actions require confirmed eligibility, nonempty supported criteria and dated official verification. Follow-ups instead use case_ref referencing a tracked/payment owner. A case has one owner; outstanding tasks reference it. Security cards contain no live source links. Closed cards omit credentials. Never sum settlement funds or unknown payments into a promised total.
 
-The design uses compact top navigation, a charcoal briefing header, clear primary action and light evidence cards. Navigation wraps on mobile; empty categories stay out of the way. Cards separate evidence, eligibility gaps and next steps. Counts derive from content; payments count within tracking. Keep meaningful empty states, accessible focus and mobile wrapping. No scripts, forms, remote fonts/images, analytics or arbitrary HTML. HTTPS references use noopener/noreferrer. Source links are not automatic eligibility endorsements.
+The design uses compact top navigation, a cobalt briefing header with citrus/coral accents, clear primary action and light evidence cards. Navigation wraps on mobile; empty categories stay out of the way. Cards separate evidence, eligibility gaps and next steps. Counts derive from content; payments count within tracking. Keep meaningful empty states, accessible focus and mobile wrapping. No scripts, forms, remote fonts/images, analytics or arbitrary HTML. HTTPS references use noopener/noreferrer. Source links are not automatic eligibility endorsements.
 
 For repeatable public inventory planning, public_inventory.py accepts a version=1 object with as_of, sources and cases. Sources have url, coverage, pages and optional limitation. Cases have key/title/status/sources/search_terms and optional official_url, verified_on, class_start/class_end/deadline. Only public facts belong here. CLI commands validate, plan and compare do not access mail or establish coverage. Keep generated plans private and adapt syntax/boundaries to connected tools.
 
@@ -727,6 +738,7 @@ def render(data):
     empty_outcome = '' if data['cases'] else '<p class="empty-outcome">' + ('No matches identified yet; this scan has gaps.' if partial else 'No matches found in the checked scope.') + '</p>'
     demo_note = '<p class="demo-note">Example report · All cases and evidence are fictitious.</p>' if data.get('demo') is True else ''
     default_summary = f"{counts['next-steps']} next {'step' if counts['next-steps'] == 1 else 'steps'} to review. {counts['discoveries']} potential {'match needs' if counts['discoveries'] == 1 else 'matches need'} a closer look."
+    scope_tone = "partial" if partial else "historical" if historical else "complete"
     first_lane = next((lane for lane in LANES if count(lane)), "coverage")
     first_label = {"next-steps":"Review your next step", "discoveries":"Review potential matches", "verification":"Review verification questions"}.get(first_lane,"Open your research record")
     coverage = ''.join(f'<div class="coverage-row"><div><strong>{e(r["source"])}</strong><span class="state {e(r["status"])}">{e("Outside this scan" if r["status"] == "not_run" else r["status"].replace("_", " "))}</span></div><p>{e(r["detail"])}</p></div>' for r in data["coverage"])
@@ -735,7 +747,7 @@ def render(data):
     accounts = ', '.join(data['accounts']) or 'No mailbox searched'
     return f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'"><title>{e(data['title'])} · Claim Atlas</title><style>{css}</style></head>
-<body id="top"><a class="skip-link" href="#main">Skip to report</a><aside class="sidebar"><div class="brand">{mark}<span>Claim Atlas<small>Find your next step.</small></span></div><p class="nav-label">YOUR WORKSPACE</p><nav aria-label="Report sections">{nav}</nav><a class="coverage-link" href="#coverage">Scope &amp; sources ↓</a><p class="local-note">Private by default.<br>Nothing is submitted from this report.</p></aside><main id="main"><header class="hero">{demo_note}<p class="eyebrow">SETTLEMENT DISCOVERY / {e(data['date'])}</p><h1>{e(data['title'])}</h1><p class="lede">{e(data.get('summary', default_summary))}</p>{empty_outcome}<div class="overview"><div><strong>{counts['next-steps']}</strong><span>next steps</span></div><div><strong>{counts['discoveries']}</strong><span>matches to review</span></div><div><strong>{count('tracking')}</strong><span>tracked claims</span></div></div><a class="start-link" href="#{first_lane}">{first_label} ↓</a><p class="continuation">This report is read-only. Read the evidence below, then return to your assistant to answer a question or record progress.</p></header><div class="scope"><span class="scope-status">{scope_label}</span><div><strong>{e(data['mode'])}</strong><p>{e(accounts)} · <a href="#coverage">See exactly what was checked</a></p></div></div>{sections}<section id="coverage"><div class="section-heading"><div><p class="eyebrow">THE RESEARCH RECORD</p><h2>Scope &amp; sources</h2><p>Coverage describes this run, not the entire web or every possible claim.</p></div></div>{coverage}</section><footer>Claim Atlas · A personal research workspace. Potential matches require truthful eligibility review.<br>Private report · Generated {e(data['date'])}</footer></main></body></html>'''
+<body id="top"><a class="skip-link" href="#main">Skip to report</a><aside class="sidebar"><div class="brand">{mark}<span>Claim Atlas<small>Find your next step.</small></span></div><p class="nav-label">YOUR WORKSPACE</p><nav aria-label="Report sections">{nav}</nav><a class="coverage-link" href="#coverage">Scope &amp; sources ↓</a><p class="local-note">Private by default.<br>Nothing is submitted from this report.</p></aside><main id="main"><header class="hero">{demo_note}<p class="eyebrow">SETTLEMENT DISCOVERY / {e(data['date'])}</p><h1>{e(data['title'])}</h1><p class="lede">{e(data.get('summary', default_summary))}</p>{empty_outcome}<div class="overview"><div><strong>{counts['next-steps']}</strong><span>next steps</span></div><div><strong>{counts['discoveries']}</strong><span>matches to review</span></div><div><strong>{count('tracking')}</strong><span>tracked claims</span></div></div><a class="start-link" href="#{first_lane}">{first_label} ↓</a><p class="continuation">This report is read-only. Read the evidence below, then return to your assistant to answer a question or record progress.</p></header><div class="scope"><span class="scope-status {scope_tone}">{scope_label}</span><div><strong>{e(data['mode'])}</strong><p>{e(accounts)} · <a href="#coverage">See exactly what was checked</a></p></div></div>{sections}<section id="coverage"><div class="section-heading"><div><p class="eyebrow">THE RESEARCH RECORD</p><h2>Scope &amp; sources</h2><p>Coverage describes this run, not the entire web or every possible claim.</p></div></div>{coverage}</section><footer>Claim Atlas · A personal research workspace. Potential matches require truthful eligibility review.<br>Private report · Generated {e(data['date'])}</footer></main></body></html>'''
 
 
 def atomic_write(path, content):

@@ -18,6 +18,6 @@ Generic discovery offers exactly two routes. Selected accounts are honored. Case
 
 Portable instructions, provider-adaptive research, public-only query helper, deterministic report renderer, local tracker contract, three distribution formats, installer and fictitious demo. Mail/web access comes from the host. This is not a hosted claims marketplace, automatic filer or central purchase-history database. Community contributions are reviewed public leads, not a hosted crowdsourcing service.
 
-Compact top navigation leads into a charcoal briefing header and light evidence cards; navigation wraps on mobile. Evidence, missing facts and next steps are separate; no aggregate payout promise. Next actions, matches, verification, tracking/payments, watchlist, closed windows, security and coverage all have stable destinations.
+Compact top navigation leads into a cobalt briefing header with citrus/coral accents and light evidence cards; navigation wraps on mobile. Evidence, missing facts and next steps are separate; no aggregate payout promise. Next actions, matches, verification, tracking/payments, watchlist, closed windows, security and coverage all have stable destinations.
 
 Release checks exercise renderer behavior, public inventory, package parity/privacy, installer preservation and rollback. Fixture checks do not certify live provider coverage or legal eligibility. Future contributions can add documented provider adapters, public-source fixtures and localization.

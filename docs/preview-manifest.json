@@ -1,5 +1,5 @@
 {
-  "demo_sha256": "222e0b6cdce5b787912c8a2d333102425f3cd8fb66f2e4132f14f2dee321324d",
+  "demo_sha256": "7e48333627fffa5eee51e73953282a296f0ef9b7f53d4ca6944db77c31089c43",
   "review": "docs/design-review.md",
   "desktop": "default browser viewport",
   "mobile": "375x812 requested; 360 CSS content pixels",
@@ -7,5 +7,5 @@
     "preview-desktop.png",
     "preview-mobile.png"
   ],
-  "direction": "charcoal briefing / light evidence / compact top navigation"
+  "direction": "Signal Blue / cobalt hero / citrus and coral accents / white reading cards"
 }

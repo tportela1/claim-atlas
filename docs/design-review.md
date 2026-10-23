@@ -29,3 +29,9 @@ No interviews, task-completion study or live settlement scan was part of this re
 A separate designer pass used Framer's public homepage as visual inspiration: restrained black/white contrast, generous typography, crisp navigation and a clear primary action. No Framer code, assets or branding were copied. The report now uses a compact top workspace bar, charcoal briefing panel, monochrome CTA, calm light evidence cards and warm uncertainty accents. A separate demo-only disclosure leaves the hero summary focused on outcomes.
 
 The regenerated version was checked at desktop and requested 375px phone width. The phone document measured 360 content pixels with no horizontal overflow. The evidence/criteria/action card remained readable with stacked narrow layouts. Preview images correspond to this design. This remains an agent design review, not recruited-user usability testing.
+
+## Signal Blue color pass
+
+After the user found the charcoal direction too muted, a designer agent regenerated the palette and a product agent reviewed what each color communicates. The current design uses a cobalt hero, citrus primary action, coral corner accent, colorful metric tiles, a warm cream canvas and white evidence cards. Blue signals review/supported facts, amber unresolved work, and teal recorded payments. Completed scope has a cool badge; historical scope stays neutral instead of falsely signaling an unresolved scan.
+
+Desktop and 375px requested mobile previews were reviewed. Mobile content measured 360px with no horizontal overflow. The designer calculated contrast for the primary text/background pairs above 4.5:1. Existing keyboard focus, reduced-motion and print behavior remain. Preview images show this latest direction, not the earlier charcoal design.
