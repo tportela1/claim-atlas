@@ -1,10 +1,11 @@
 {
-  "demo_sha256": "15db685487090615294fe71002a3e2ab08d6a103042e10e02c80ea5d55154823",
+  "demo_sha256": "222e0b6cdce5b787912c8a2d333102425f3cd8fb66f2e4132f14f2dee321324d",
   "review": "docs/design-review.md",
   "desktop": "default browser viewport",
   "mobile": "375x812 requested; 360 CSS content pixels",
   "screenshots": [
     "preview-desktop.png",
     "preview-mobile.png"
-  ]
+  ],
+  "direction": "charcoal briefing / light evidence / compact top navigation"
 }

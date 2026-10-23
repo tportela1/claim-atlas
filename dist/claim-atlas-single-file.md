@@ -45,6 +45,34 @@ Use the bundled renderer when execution is available; otherwise follow the works
 > File edition: embedded guides below replace relative file references. Local utilities are optional; follow their documented contracts when execution is unavailable.
 
 
+# Included guide: LICENSE
+
+MIT License
+
+Copyright (c) 2026 Claim Atlas contributors
+
+Historical notice retained for previously distributed versions:
+Copyright (c) 2026 Yingying Chu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
 # Included resource: assets/app-icon.svg
 
 ```svg
@@ -108,38 +136,125 @@ Use the bundled renderer when execution is available; otherwise follow the works
 # Included resource: assets/report.css
 
 ```css
-:root{--ink:#172338;--paper:#f4f6fa;--surface:#fff;--text:#202d43;--muted:#59677c;--line:#dbe1eb;--blue:#244dd8;--soft:#edf1ff;--amber:#875413}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:var(--blue);text-underline-offset:4px;overflow-wrap:anywhere}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible{outline:3px solid #ec9b32;outline-offset:5px}h1,h2,h3,h4,p,dl{margin:0}h1{font-size:clamp(36px,4.5vw,60px);line-height:1.1;letter-spacing:-2px;font-weight:750;max-width:850px}h2{font-size:28px;line-height:1.2;letter-spacing:-.7px}h3{font-size:23px;line-height:1.3;letter-spacing:-.4px}h4{font-size:13px;text-transform:uppercase;letter-spacing:.09em;margin-bottom:12px}p,dd,li{overflow-wrap:anywhere}.sidebar{position:fixed;inset:0 auto 0 0;width:262px;background:var(--ink);color:#fff;padding:34px 22px;overflow:auto}.brand{display:flex;gap:12px;align-items:center;font-size:22px;font-weight:750;letter-spacing:-.6px}.brand svg{width:40px;height:40px;flex:none}.brand small{display:block;font-size:11px;font-weight:450;letter-spacing:.03em;color:#bdc9df}.nav-label{font-size:10px;letter-spacing:.16em;color:#aab8d0;margin:60px 10px 14px}.sidebar nav{display:grid;gap:6px}.sidebar nav a{display:flex;justify-content:space-between;gap:12px;color:#e2e8f4;text-decoration:none;font-size:13px;padding:12px 10px;border-radius:7px}.sidebar nav a:hover{background:#344766}.sidebar nav b{font-size:12px;color:#b6c9ff}.coverage-link{display:block;margin:28px 10px;color:#bdcfff;font-size:12px}.local-note{font-size:11px;line-height:1.8;color:#b8c5da;margin:50px 10px 0}main{margin-left:262px;max-width:1370px;padding:52px 6% 32px}.eyebrow{font-size:11px;letter-spacing:.15em;font-weight:750;color:var(--blue);margin-bottom:18px}.hero{padding-bottom:28px}.lede{font-size:17px;color:var(--muted);margin-top:22px;max-width:720px}.overview{display:flex;gap:50px;margin-top:34px}.overview div{display:grid;gap:2px}.overview strong{font-size:36px;line-height:1.2;letter-spacing:-1px}.overview span{font-size:12px;color:var(--muted)}.scope{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:0 8px 8px 0;padding:20px 24px;display:flex;gap:22px;align-items:center;font-size:13px;margin-bottom:54px}.scope-status{font-size:11px;font-weight:700;color:var(--amber);background:#fff3df;padding:7px 10px;border-radius:4px;white-space:nowrap}.scope p{color:var(--muted);margin-top:3px}section{scroll-margin-top:28px;border-top:1px solid #bcc7d8;padding-top:30px;margin-top:42px}.section-heading{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin-bottom:24px}.section-heading p:not(.eyebrow){font-size:13px;color:var(--muted);margin-top:8px;max-width:650px}.section-count{font-size:28px;font-weight:650;color:#8997ae;line-height:1.2}.case-card{background:white;border:1px solid var(--line);border-radius:10px;padding:28px;margin:0 0 18px;box-shadow:0 3px 10px #17233804;scroll-margin-top:28px}.badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.badge{background:var(--soft);color:#2344a2;font-size:10px;font-weight:700;letter-spacing:.035em;padding:5px 9px;border-radius:4px}.badge.neutral{background:#f0f2f6;color:#4a596e}.case-summary{color:var(--muted);font-size:14px;margin:12px 0 20px}.facts{display:flex;flex-wrap:wrap;gap:18px 32px;margin:18px 0 24px}.facts div{flex:1 1 170px;min-width:0}.facts dt{font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}.facts dd{font-size:13px;font-weight:600;margin:5px 0 0}.evidence{background:#f6f8fc;border-radius:6px;padding:18px 20px;margin-top:22px}.evidence ul{margin:0;padding-left:19px;font-size:13px}.evidence li+li{margin-top:8px}.criteria{margin-top:24px}.criterion{display:flex;align-items:flex-start;gap:14px;border-top:1px solid #edf0f5;padding:13px 0;font-size:13px}.criterion strong{font-weight:600}.criterion p{font-size:12px;color:var(--muted);margin-top:3px}.state{display:inline-block;color:#56657a;background:#edf0f5;border-radius:4px;font-size:10px;line-height:1.5;padding:4px 7px;text-transform:uppercase;letter-spacing:.04em;flex:none}.state.supported,.state.complete{color:#2446a0;background:#edf1ff}.state.unknown,.state.partial,.state.blocked{color:#805014;background:#fff1d9}.state.contradicted{color:#9c3434;background:#ffeded}.next-step{border-top:1px solid var(--line);margin-top:23px;padding-top:18px}.next-step>span{font-size:10px;font-weight:750;text-transform:uppercase;letter-spacing:.1em;color:var(--blue)}.next-step p{font-size:13px;margin-top:6px}.sources{font-size:11px;line-height:2;margin-top:18px}.empty{border:1px dashed #c9d2e1;padding:20px;border-radius:7px;font-size:13px;color:var(--muted)}.back-to-top{display:block;text-align:right;font-size:11px;margin:20px 0 32px}.subheading{font-size:18px;margin:22px 0 18px}.subheading span{color:var(--muted);font-size:13px;margin-left:10px}.payments{scroll-margin-top:28px}details{margin-top:20px;font-size:12px}summary{cursor:pointer;color:var(--blue)}.coverage-row{padding:20px 0;border-top:1px solid var(--line)}.coverage-row>div{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:13px}.coverage-row p{font-size:12px;color:var(--muted);margin-top:8px}footer{margin-top:50px;border-top:1px solid var(--line);padding-top:24px;font-size:11px;color:var(--muted)}.skip-link{position:absolute;top:-100px;left:16px;background:white;padding:12px;z-index:20}.skip-link:focus{top:12px}@media(min-width:1600px){main{padding-left:85px;padding-right:85px}}@media(max-width:900px){.sidebar{width:218px;padding:28px 16px}.brand{font-size:19px}.brand svg{width:32px;height:32px}main{margin-left:218px;padding:36px 28px}.scope{display:block}.scope-status{display:inline-block;margin-bottom:12px}.overview{gap:30px}}@media(max-width:650px){.sidebar{position:static;width:auto;padding:22px 20px}.brand{font-size:22px}.nav-label,.local-note{display:none}.sidebar nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:22px}.sidebar nav a{font-size:11px;padding:7px 9px;border:1px solid #3c4b65;gap:10px}.sidebar nav b{font-size:10px}.coverage-link{margin:16px 0 0}.brand svg{width:36px;height:36px}main{margin:0;padding:32px 20px}h1{font-size:38px;letter-spacing:-1.4px}.lede{font-size:15px}.overview{gap:22px;justify-content:space-between}.overview strong{font-size:30px}.overview span{font-size:10px}.scope{margin-bottom:36px;padding:18px}h2{font-size:24px}.section-heading{gap:12px}.section-count{font-size:23px}.case-card{padding:20px}h3{font-size:21px}.facts{gap:14px}.facts div{flex-basis:125px}.criterion{gap:10px}.criterion .state{font-size:9px;max-width:90px}.evidence{padding:16px}section{margin-top:34px}.eyebrow{font-size:10px}}@media print{.sidebar,.back-to-top,.skip-link{display:none}main{margin:0;max-width:none;padding:0}body{background:white}.case-card{break-inside:avoid;box-shadow:none}section{break-inside:auto}.scope{margin-bottom:24px}a{color:inherit}}
-
-[hidden]{display:none!important}.start-link{display:inline-block;margin-top:28px;font-size:14px;font-weight:650}.continuation{font-size:13px;color:var(--muted);margin-top:14px;max-width:720px}.official-action a{display:inline-block;padding:10px 14px;background:var(--blue);border-radius:5px;color:white;text-decoration:none;font-size:13px;margin-top:18px}.official-action:empty{display:none}.badge,.state,.facts dt{font-size:12px}.sources,.back-to-top,.coverage-row p,footer{font-size:13px}.sidebar nav a{font-size:14px}.overview span{font-size:13px}.nav-label{font-size:11px}.local-note{font-size:12px}@media(max-width:650px){.sidebar nav a{font-size:12px}.overview span{font-size:11px}.criterion{flex-wrap:wrap}.criterion>div{flex:1 1 180px}.criterion .state{font-size:11px;max-width:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* Claim Atlas — quiet, editorial workspace. No external fonts or assets. */
+:root{color-scheme:light;--ink:#171717;--paper:#f7f7f5;--surface:#fff;--text:#222;--muted:#62625e;--line:#e4e4df;--blue:#252525;--soft:#efefec;--amber:#80520e;--radius:18px}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:30px}
+body{margin:0;background:var(--paper);color:var(--text);font:16px/1.65 ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-underline-offset:4px;text-decoration-color:#a2a29c;overflow-wrap:anywhere}
+a:hover{text-decoration-color:currentColor}
+a:focus-visible,summary:focus-visible{outline:3px solid #635bff;outline-offset:5px;border-radius:4px}
+h1,h2,h3,h4,p,dl{margin:0}
+p,dd,li{overflow-wrap:anywhere}
+h1{font-size:clamp(42px,5.6vw,76px);font-weight:600;line-height:1.03;letter-spacing:-.065em;max-width:920px;text-wrap:balance}
+h2{font-size:clamp(26px,3vw,34px);font-weight:580;line-height:1.17;letter-spacing:-.045em}
+h3{font-size:27px;font-weight:600;line-height:1.2;letter-spacing:-.035em;text-wrap:balance}
+h4{font-size:12px;line-height:1.5;font-weight:650;letter-spacing:.07em;text-transform:uppercase;margin-bottom:14px;color:var(--muted)}
+.sidebar{width:100%;padding:26px max(28px,calc((100vw - 1120px)/2));background:var(--surface);border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;column-gap:24px;row-gap:22px;align-items:center}
+.brand{display:flex;gap:11px;align-items:center;font-size:21px;font-weight:650;letter-spacing:-.055em;line-height:1.1}
+.brand svg{display:block;width:34px;height:34px;flex:none;filter:grayscale(1)}
+.brand small{display:block;margin-top:5px;color:var(--muted);font-size:11px;font-weight:450;letter-spacing:0}
+.nav-label{display:none}
+.sidebar nav{grid-column:1/-1;grid-row:2;display:flex;flex-wrap:wrap;gap:6px}
+.sidebar nav a{display:flex;gap:9px;align-items:center;padding:8px 12px;min-height:40px;color:#545450;border:1px solid transparent;border-radius:9px;text-decoration:none;font-size:12px;font-weight:500;transition:background .15s ease,border-color .15s ease}
+.sidebar nav a:hover{background:#f3f3f0;border-color:var(--line);color:var(--ink)}
+.sidebar nav b{font-size:11px;font-weight:500;color:#686863;background:#efefeb;padding:1px 5px;border-radius:4px;font-variant-numeric:tabular-nums}
+.coverage-link{grid-column:2;grid-row:1;font-size:12px;font-weight:500;text-decoration:none;white-space:nowrap;padding:10px 0}
+.local-note{display:none}
+main{width:min(100% - 56px,1120px);margin:0 auto;padding:76px 0 32px}
+.eyebrow{display:flex;align-items:center;gap:9px;color:#696964;font-size:11px;letter-spacing:.11em;font-weight:600;margin-bottom:26px}
+.eyebrow:before{content:"";width:6px;height:6px;background:#77766f;border-radius:50%;flex:none}
+.hero{padding:0 0 40px}
+.lede{font-size:17px;line-height:1.7;color:var(--muted);max-width:710px;margin-top:25px}
+.overview{display:flex;gap:0;margin-top:38px;max-width:700px}
+.overview>div{display:flex;flex-direction:column;gap:7px;flex:1;padding:0 30px;border-left:1px solid #d7d7d0}
+.overview>div:first-child{padding-left:0;border-left:0}
+.overview strong{font-size:37px;line-height:1.1;letter-spacing:-.05em;font-weight:550;font-variant-numeric:tabular-nums}
+.overview span{font-size:12px;color:var(--muted)}
+.start-link,.official-action a{display:inline-flex;justify-content:center;align-items:center;gap:12px;min-height:46px;background:var(--ink);color:#fff;text-decoration:none;border:1px solid var(--ink);border-radius:10px;padding:11px 18px;font-size:13px;line-height:1.5;font-weight:550;box-shadow:0 2px 3px #0000000a;transition:background .15s ease,box-shadow .15s ease}
+.start-link{margin-top:32px}
+.start-link:hover,.official-action a:hover{background:#383838;border-color:#383838;box-shadow:0 3px 9px #00000012}
+.continuation{font-size:12px;line-height:1.7;color:#707069;max-width:740px;margin-top:17px}
+.scope{display:flex;gap:20px;align-items:center;padding:20px 24px;margin:0 0 58px;border:1px solid var(--line);border-radius:12px;background:#eeeeea;font-size:12px}
+.scope-status{display:inline-flex;flex:none;background:#fff8e8;color:var(--amber);border:1px solid #eadcbf;padding:5px 9px;border-radius:6px;font-size:11px;font-weight:550}
+.scope strong{font-weight:600;font-size:13px}
+.scope p{color:var(--muted);margin-top:3px}
+section{margin-top:56px;padding-top:30px;border-top:1px solid #d7d7d0;scroll-margin-top:30px}
+.section-heading{display:flex;gap:24px;justify-content:space-between;align-items:flex-start;margin-bottom:27px}
+.section-heading p:not(.eyebrow){font-size:13px;color:var(--muted);margin-top:10px;max-width:650px}
+.section-count{font-size:14px;font-weight:500;line-height:1.5;min-width:34px;padding:5px 8px;text-align:center;color:#64645f;background:#eaeae5;border-radius:8px;font-variant-numeric:tabular-nums}
+.case-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:34px 38px;margin-bottom:18px;box-shadow:0 3px 8px #17171702;scroll-margin-top:30px}
+.case-card:target{outline:2px solid #a7a7a0;outline-offset:4px}
+.badges{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:19px}
+.badge{font-size:11px;font-weight:550;line-height:1.5;border:1px solid #dcdcd5;background:#f4f4f1;color:#45453f;border-radius:6px;padding:4px 8px}
+.badge.neutral{color:#62625c;background:transparent;border-color:#e8e8e3}
+.case-summary{font-size:14px;line-height:1.75;color:var(--muted);margin-top:13px;max-width:780px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px 30px;margin:27px 0}
+.facts:empty{display:none}
+.facts>div{min-width:0}
+.facts dt{font-size:11px;line-height:1.5;color:var(--muted);margin-bottom:6px}
+.facts dd{font-size:13px;font-weight:550;line-height:1.65;margin:0}
+.evidence{background:#f6f6f3;border:1px solid #edede7;border-radius:10px;padding:21px 24px;margin-top:25px}
+.evidence ul{margin:0;padding-left:18px;font-size:13px;line-height:1.8;color:#4b4b46}
+.evidence li+li{margin-top:7px}
+.evidence li::marker{color:#8d8d85}
+.criteria{margin-top:28px}
+.criterion{display:grid;grid-template-columns:110px 1fr;align-items:start;gap:18px;border-top:1px solid #ecece7;padding:16px 0;font-size:13px}
+.criterion>div{min-width:0}
+.criterion strong{font-size:13px;font-weight:600;line-height:1.6}
+.criterion p{font-size:12px;line-height:1.75;color:var(--muted);margin-top:4px}
+.state{display:inline-flex;justify-self:start;align-items:center;max-width:100%;font-size:10px;line-height:1.6;font-weight:550;border-radius:5px;padding:4px 7px;background:#edede8;color:#5b5b54;letter-spacing:.015em;overflow-wrap:anywhere}
+.state.supported,.state.complete{background:#edf2eb;color:#395336}
+.state.unknown,.state.partial,.state.blocked{background:#fbf0d9;color:#79500e}
+.state.contradicted{background:#faeaea;color:#8e3933}
+.next-step{border-top:1px solid var(--line);padding-top:21px;margin-top:24px}
+.next-step>span{font-size:11px;color:#696962;font-weight:650}
+.next-step p{font-size:14px;line-height:1.8;margin-top:7px;color:#33332e;max-width:800px}
+.official-action a{margin-top:20px;font-size:12px}
+.official-action:empty,.sources:empty{display:none}
+.sources{font-size:12px;line-height:2;color:#6d6d65;margin-top:22px}
+.back-to-top{display:block;width:fit-content;margin:19px 0 0 auto;color:#707069;font-size:11px;text-decoration:none;padding:6px 0}
+.empty,.empty-outcome{padding:22px;border:1px dashed #d6d6ce;border-radius:10px;color:var(--muted);font-size:13px;background:#fafaf7}
+.empty-outcome{margin-top:24px}
+.subheading{font-size:20px;margin:32px 0 20px;font-weight:550}
+.subheading span{font-size:12px;color:var(--muted);margin-left:10px}
+.payments{scroll-margin-top:30px}
+details{margin-top:22px;font-size:13px}
+summary{cursor:pointer;width:fit-content;max-width:100%;min-height:32px;padding:4px 0;color:#5b5b54;text-decoration:underline;text-decoration-color:#babbb1;text-underline-offset:4px}
+.coverage-row{padding:22px 0;border-top:1px solid var(--line)}
+.coverage-row>div{display:flex;align-items:center;flex-wrap:wrap;gap:12px;font-size:13px}
+.coverage-row strong{font-weight:600}
+.coverage-row p{font-size:13px;line-height:1.8;color:var(--muted);margin-top:8px;max-width:860px}
+footer{border-top:1px solid var(--line);margin-top:64px;padding:27px 0;font-size:12px;line-height:1.8;color:#74746d}
+.skip-link{position:absolute;left:20px;top:-100px;background:#fff;padding:12px 18px;z-index:20;border:1px solid var(--ink);border-radius:8px}
+.skip-link:focus{top:16px}
+@media(min-width:1400px){main{padding-top:90px}.hero{padding-bottom:45px}}
+@media(max-width:800px){.sidebar{padding:22px 24px;column-gap:18px;row-gap:17px}.sidebar nav{gap:3px}.sidebar nav a{padding:7px 9px;font-size:11px}.sidebar nav b{font-size:10px}main{width:calc(100% - 48px);padding-top:52px}h1{font-size:clamp(42px,7vw,61px)}.case-card{padding:28px}.scope{align-items:flex-start;gap:14px;padding:18px}.overview{max-width:620px}.overview>div{padding:0 20px}}
+@media(max-width:520px){.sidebar{padding:20px;gap:18px 12px}.brand{font-size:20px}.brand svg{width:29px;height:29px}.brand small{font-size:10px}.coverage-link{font-size:11px}.sidebar nav{gap:5px}.sidebar nav a{padding:6px 8px;min-height:35px;background:#f7f7f3;border-color:#ebebe5;font-size:11px}.sidebar nav b{background:#e9e9e1}main{width:calc(100% - 36px);padding-top:42px}h1{font-size:44px;letter-spacing:-.06em}h2{font-size:27px}h3{font-size:24px}.eyebrow{font-size:10px;letter-spacing:.08em;margin-bottom:21px}.lede{font-size:15px;margin-top:21px}.hero{padding-bottom:30px}.overview{margin-top:28px}.overview>div{padding:0 12px;gap:7px}.overview strong{font-size:31px}.overview span{font-size:11px;line-height:1.5}.start-link{width:100%;margin-top:27px;font-size:13px}.continuation{font-size:11px;line-height:1.75}.scope{display:block;margin-bottom:40px}.scope-status{margin-bottom:11px}.scope strong{font-size:12px}.scope p{font-size:11px}section{margin-top:42px;padding-top:25px}.section-heading{gap:16px;margin-bottom:22px}.section-heading p:not(.eyebrow){font-size:12px}.section-count{font-size:12px;min-width:30px}.case-card{padding:24px 21px;border-radius:14px}.badges{gap:6px;margin-bottom:17px}.badge{font-size:10px}.case-summary{font-size:13px}.facts{grid-template-columns:1fr;gap:18px;margin:24px 0}.facts dt{font-size:11px}.facts dd{font-size:13px}.evidence{padding:18px;margin-top:22px}.evidence ul{font-size:12px}.criterion{grid-template-columns:1fr;gap:9px;padding:16px 0}.criterion strong{font-size:13px}.criterion p{font-size:12px}.state{font-size:10px}.next-step p{font-size:13px}.official-action a{width:100%;text-align:center;font-size:12px}.sources{font-size:11px}.coverage-row p{font-size:12px}footer{margin-top:48px;font-size:11px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media print{html{scroll-behavior:auto}body{background:#fff;font-size:11pt;color:#000}.sidebar,.skip-link,.back-to-top,.start-link{display:none}main{width:100%;margin:0;padding:0}.hero{padding-bottom:18px}h1{font-size:32pt;letter-spacing:-1pt}.lede{font-size:11pt}.overview{margin-top:20px}.overview strong{font-size:25pt}.continuation{font-size:9pt}.scope{margin-bottom:25px;background:#fff}.case-card{break-inside:avoid;padding:20px;box-shadow:none;border-color:#ccc}section{margin-top:28px;padding-top:20px;break-inside:auto}.section-heading{break-after:avoid}h2{font-size:20pt}h3{font-size:17pt}.official-action a{color:#000;background:#fff;border-color:#777}.evidence{background:#fafafa}.facts{grid-template-columns:repeat(3,minmax(0,1fr))}.criterion{grid-template-columns:100px 1fr}a{color:#000}.state{color:#333!important;background:#eee!important}footer{margin-top:30px}}
+/* A dark introduction frames the next decision; long evidence remains on light paper. */
+.hero{background:#141414;color:#fafaf8;padding:54px 54px 42px;border:1px solid #292929;border-radius:24px;margin-bottom:24px;box-shadow:0 14px 36px #00000008}
+.hero h1{color:#fff;max-width:920px}
+.hero .eyebrow{color:#b4b4ac}
+.hero .eyebrow:before{background:#c4c4ba}
+.hero .lede{color:#bcbcb5}
+.hero .overview>div{border-color:#3c3c37}
+.hero .overview span{color:#aeaea5}
+.hero .start-link{background:#fafaf7;color:#171717;border-color:#fafaf7;box-shadow:none}
+.hero .start-link:hover{background:#deded6;border-color:#deded6}
+.hero .continuation{color:#abab9f}
+.hero .empty-outcome{background:#22221f;border-color:#46463c;color:#d4d4ca}
+@media(min-width:1400px){.hero{padding:62px 60px 46px}}
+@media(max-width:800px){main{padding-top:32px}.hero{padding:38px 32px 32px;border-radius:20px}.hero h1{font-size:clamp(40px,6.8vw,59px)}}
+@media(max-width:520px){main{padding-top:20px}.hero{padding:30px 23px 26px;border-radius:16px;margin-bottom:18px}.hero h1{font-size:39px;line-height:1.08}.hero .lede{font-size:14px}.hero .overview>div{padding:0 10px}.hero .overview>div:first-child{padding-left:0}.hero .overview strong{font-size:29px}.hero .overview span{font-size:10px}.hero .continuation{font-size:11px}.hero .start-link{padding:12px}}
+@media print{.hero{background:#fff;color:#000;border:0;border-radius:0;padding:0 0 20px;margin:0;box-shadow:none}.hero h1,.hero .eyebrow,.hero .lede,.hero .overview span,.hero .continuation{color:#222}.hero .overview>div{border-color:#ccc}.hero .empty-outcome{background:#fff;color:#000}}
+.demo-note{display:inline-flex;align-items:center;gap:8px;margin:0 0 25px;padding:7px 10px;border:1px solid #44443e;border-radius:7px;background:#22221f;color:#d1d1c7;font-size:11px;line-height:1.6}
+.demo-note:before{content:"";width:5px;height:5px;border-radius:50%;background:#b8b8a7;flex:none}
+@media(max-width:520px){.demo-note{font-size:10px;line-height:1.7;padding:7px 9px;margin-bottom:22px}}
+@media print{.demo-note{background:#fff;border-color:#aaa;color:#333}}
 ```
-
-
-# Included guide: LICENSE
-
-MIT License
-
-Copyright (c) 2026 Claim Atlas contributors
-
-Historical notice retained for previously distributed versions:
-Copyright (c) 2026 Yingying Chu
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 
 # Included guide: references/records.md
@@ -208,13 +323,13 @@ Run `python scripts/render_report.py INPUT.json OUTPUT.html` relative to the ski
 
 ## Version 1 report data
 
-Root fields: version=1, title, ISO date, mode, accounts (selected labels), coverage (array), cases (array). Optional summary, decisions, history persist user context. Coverage entries have source, status (complete/partial/blocked/historical/not_run), detail. Include dates, folders/pages, unprocessed candidates and source limitations. Plan generation and metadata retrieval do not imply interpreted coverage.
+Root fields: version=1, title, ISO date, mode, accounts (selected labels), coverage (array), cases (array). Optional summary, decisions, history persist user context. Public fictitious fixtures set demo=true to display a separate example label; real personal reports omit this flag. Coverage entries have source, status (complete/partial/blocked/historical/not_run), detail. Include dates, folders/pages, unprocessed candidates and source limitations. Plan generation and metadata retrieval do not imply interpreted coverage.
 
 Each case has a unique key, title, lane, status, summary, next_step. Optional eligibility is confirmed/strong/possible/unknown/not_eligible. Optional deadline and verified_on are ISO dates; official_url is HTTPS; verification is readable source context; payout is the user's estimate or actual payment with uncertainty stated. Evidence is a string array; sources are {label,url}; criteria are {criterion,state,detail} with supported/unknown/contradicted; details are {label,value} private tracking facts only where needed.
 
 Lane destinations belong to Claim Atlas: next-steps, discoveries, verification, tracking with nested payments, watchlist, closed, safety. Filing actions require confirmed eligibility, nonempty supported criteria and dated official verification. Follow-ups instead use case_ref referencing a tracked/payment owner. A case has one owner; outstanding tasks reference it. Security cards contain no live source links. Closed cards omit credentials. Never sum settlement funds or unknown payments into a promised total.
 
-The design is an ink/cobalt workspace with desktop sidebar and wrapping mobile navigation. Cards separate evidence, eligibility gaps and next steps. Counts derive from content; payments count within tracking. Keep meaningful empty states, accessible focus and mobile wrapping. No scripts, forms, remote fonts/images, analytics or arbitrary HTML. HTTPS references use noopener/noreferrer. Source links are not automatic eligibility endorsements.
+The design uses compact top navigation, a charcoal briefing header, clear primary action and light evidence cards. Navigation wraps on mobile; empty categories stay out of the way. Cards separate evidence, eligibility gaps and next steps. Counts derive from content; payments count within tracking. Keep meaningful empty states, accessible focus and mobile wrapping. No scripts, forms, remote fonts/images, analytics or arbitrary HTML. HTTPS references use noopener/noreferrer. Source links are not automatic eligibility endorsements.
 
 For repeatable public inventory planning, public_inventory.py accepts a version=1 object with as_of, sources and cases. Sources have url, coverage, pages and optional limitation. Cases have key/title/status/sources/search_terms and optional official_url, verified_on, class_start/class_end/deadline. Only public facts belong here. CLI commands validate, plan and compare do not access mail or establish coverage. Keep generated plans private and adapt syntax/boundaries to connected tools.
 
@@ -458,7 +573,7 @@ import tempfile
 from urllib.parse import urlsplit
 
 LANES = {
-    "next-steps": ("Next actions", "Only supported claims and outstanding follow-ups appear here."),
+    "next-steps": ("Next actions", "Review the rules and your supporting facts before deciding. Evidence support is not an administrator’s decision."),
     "discoveries": ("Matches to review", "Evidence can point to a match. Missing facts still need your review."),
     "verification": ("Verification needed", "Official rules or legitimacy need checking before proceeding."),
     "tracking": ("Filed & tracking", "Your submitted and automatically enrolled claims, including payments received."),
@@ -610,6 +725,8 @@ def render(data):
     historical = any(r["status"] == "historical" for r in data["coverage"])
     scope_label = "Coverage has gaps" if partial else "Includes prior research" if historical and any(row["status"] == "complete" for row in data["coverage"]) else "Prior research / no new scan" if historical else "Selected scope checked"
     empty_outcome = '' if data['cases'] else '<p class="empty-outcome">' + ('No matches identified yet; this scan has gaps.' if partial else 'No matches found in the checked scope.') + '</p>'
+    demo_note = '<p class="demo-note">Example report · All cases and evidence are fictitious.</p>' if data.get('demo') is True else ''
+    default_summary = f"{counts['next-steps']} next {'step' if counts['next-steps'] == 1 else 'steps'} to review. {counts['discoveries']} potential {'match needs' if counts['discoveries'] == 1 else 'matches need'} a closer look."
     first_lane = next((lane for lane in LANES if count(lane)), "coverage")
     first_label = {"next-steps":"Review your next step", "discoveries":"Review potential matches", "verification":"Review verification questions"}.get(first_lane,"Open your research record")
     coverage = ''.join(f'<div class="coverage-row"><div><strong>{e(r["source"])}</strong><span class="state {e(r["status"])}">{e("Outside this scan" if r["status"] == "not_run" else r["status"].replace("_", " "))}</span></div><p>{e(r["detail"])}</p></div>' for r in data["coverage"])
@@ -618,7 +735,7 @@ def render(data):
     accounts = ', '.join(data['accounts']) or 'No mailbox searched'
     return f'''<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'"><title>{e(data['title'])} · Claim Atlas</title><style>{css}</style></head>
-<body id="top"><a class="skip-link" href="#main">Skip to report</a><aside class="sidebar"><div class="brand">{mark}<span>Claim Atlas<small>Find your next step.</small></span></div><p class="nav-label">YOUR WORKSPACE</p><nav aria-label="Report sections">{nav}</nav><a class="coverage-link" href="#coverage">Scope &amp; sources ↓</a><p class="local-note">Private by default.<br>Nothing is submitted from this report.</p></aside><main id="main"><header class="hero"><p class="eyebrow">SETTLEMENT DISCOVERY / {e(data['date'])}</p><h1>{e(data['title'])}</h1><p class="lede">{e(data.get('summary', 'Discover what may fit. Review the evidence. Keep track of what comes next.'))}</p>{empty_outcome}<div class="overview"><div><strong>{counts['next-steps']}</strong><span>next steps</span></div><div><strong>{counts['discoveries']}</strong><span>matches to review</span></div><div><strong>{count('tracking')}</strong><span>tracked claims</span></div></div><a class="start-link" href="#{first_lane}">{first_label} ↓</a><p class="continuation">This report is read-only. Return to your assistant to answer a question, record a filing or payment, or refresh these results. Evidence support is not an administrator’s eligibility decision.</p></header><div class="scope"><span class="scope-status">{scope_label}</span><div><strong>{e(data['mode'])}</strong><p>{e(accounts)} · <a href="#coverage">See exactly what was checked</a></p></div></div>{sections}<section id="coverage"><div class="section-heading"><div><p class="eyebrow">THE RESEARCH RECORD</p><h2>Scope &amp; sources</h2><p>Coverage describes this run, not the entire web or every possible claim.</p></div></div>{coverage}</section><footer>Claim Atlas · A personal research workspace. Potential matches require truthful eligibility review.<br>Private report · Generated {e(data['date'])}</footer></main></body></html>'''
+<body id="top"><a class="skip-link" href="#main">Skip to report</a><aside class="sidebar"><div class="brand">{mark}<span>Claim Atlas<small>Find your next step.</small></span></div><p class="nav-label">YOUR WORKSPACE</p><nav aria-label="Report sections">{nav}</nav><a class="coverage-link" href="#coverage">Scope &amp; sources ↓</a><p class="local-note">Private by default.<br>Nothing is submitted from this report.</p></aside><main id="main"><header class="hero">{demo_note}<p class="eyebrow">SETTLEMENT DISCOVERY / {e(data['date'])}</p><h1>{e(data['title'])}</h1><p class="lede">{e(data.get('summary', default_summary))}</p>{empty_outcome}<div class="overview"><div><strong>{counts['next-steps']}</strong><span>next steps</span></div><div><strong>{counts['discoveries']}</strong><span>matches to review</span></div><div><strong>{count('tracking')}</strong><span>tracked claims</span></div></div><a class="start-link" href="#{first_lane}">{first_label} ↓</a><p class="continuation">This report is read-only. Read the evidence below, then return to your assistant to answer a question or record progress.</p></header><div class="scope"><span class="scope-status">{scope_label}</span><div><strong>{e(data['mode'])}</strong><p>{e(accounts)} · <a href="#coverage">See exactly what was checked</a></p></div></div>{sections}<section id="coverage"><div class="section-heading"><div><p class="eyebrow">THE RESEARCH RECORD</p><h2>Scope &amp; sources</h2><p>Coverage describes this run, not the entire web or every possible claim.</p></div></div>{coverage}</section><footer>Claim Atlas · A personal research workspace. Potential matches require truthful eligibility review.<br>Private report · Generated {e(data['date'])}</footer></main></body></html>'''
 
 
 def atomic_write(path, content):

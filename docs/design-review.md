@@ -23,3 +23,9 @@ The final follow-up PM review found no further blocking inconsistency after two 
 ## Limits and next validation
 
 No interviews, task-completion study or live settlement scan was part of this review. Future usability testing should ask a new user to choose an account, identify why a match is uncertain, answer a material question and record a payment. The key measure is whether they can distinguish a potential match from approval without assistance.
+
+## Designer regeneration
+
+A separate designer pass used Framer's public homepage as visual inspiration: restrained black/white contrast, generous typography, crisp navigation and a clear primary action. No Framer code, assets or branding were copied. The report now uses a compact top workspace bar, charcoal briefing panel, monochrome CTA, calm light evidence cards and warm uncertainty accents. A separate demo-only disclosure leaves the hero summary focused on outcomes.
+
+The regenerated version was checked at desktop and requested 375px phone width. The phone document measured 360 content pixels with no horizontal overflow. The evidence/criteria/action card remained readable with stacked narrow layouts. Preview images correspond to this design. This remains an agent design review, not recruited-user usability testing.

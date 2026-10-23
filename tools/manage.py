@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / 'skills' / 'claim-atlas'
 
 def sources():
-    for path in sorted(SKILL.rglob('*')):
+    for path in sorted(SKILL.rglob('*'), key=lambda item: item.relative_to(SKILL).as_posix()):
         relative = path.relative_to(SKILL)
         if path.is_file() and not {'output','__pycache__'} & set(relative.parts) and path.suffix != '.pyc' and path.name != '.DS_Store':
             yield relative.as_posix(), path.read_bytes().replace(b'\r\n',b'\n')

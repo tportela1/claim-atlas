@@ -6,7 +6,7 @@
   "accounts": [
     "Demo personal mailbox"
   ],
-  "summary": "Fictitious demo: one next step to review, two potential matches with unanswered questions, and two claims already tracked. No real cases or eligibility findings are represented.",
+  "summary": "One next step to review. Two potential matches need a closer look.",
   "coverage": [
     {
       "source": "Public discovery",
@@ -163,5 +163,6 @@
       "summary": "A payment request could not be linked to a verified administrator. The suspect address is not clickable.",
       "next_step": "Use an independently verified administrator source before sharing information."
     }
-  ]
+  ],
+  "demo": true
 }

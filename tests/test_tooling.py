@@ -22,6 +22,10 @@ class Distribution(unittest.TestCase):
             manage.install('codex',parent)
             self.assertEqual((target/'output/private.txt').read_text(),'user-owned')
             self.assertFalse((target/'obsolete.txt').exists()); self.assertTrue(other.exists())
+    def test_resource_order_is_platform_independent(self):
+        names=[name for name,_ in manage.sources()]
+        self.assertEqual(names,sorted(names))
+
     def test_release_is_deterministic_and_private_files_excluded(self):
         with tempfile.TemporaryDirectory() as temp:
             directory=Path(temp);manage.build(directory)
