@@ -1,5 +1,5 @@
 {
-  "demo_sha256": "7e48333627fffa5eee51e73953282a296f0ef9b7f53d4ca6944db77c31089c43",
+  "demo_sha256": "95b3dcbd2efca1cf4150c74eaa2a47c3553c4f5d084980c92c79f1906d7abb33",
   "review": "docs/design-review.md",
   "desktop": "default browser viewport",
   "mobile": "375x812 requested; 360 CSS content pixels",
@@ -7,5 +7,6 @@
     "preview-desktop.png",
     "preview-mobile.png"
   ],
-  "direction": "Signal Blue / cobalt hero / citrus and coral accents / white reading cards"
+  "direction": "Signal Blue / cobalt hero / citrus and coral accents / white reading cards",
+  "logo": "ATLA-inspired arrow / cobalt / air arcs / citrus accent"
 }

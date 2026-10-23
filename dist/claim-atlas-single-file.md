@@ -76,7 +76,13 @@ SOFTWARE.
 # Included resource: assets/app-icon.svg
 
 ```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Claim Atlas"><rect width="48" height="48" rx="12" fill="#244dd8"/><path d="M11 34 24 12l13 22M17 25h14M20 34l4-7 4 7" fill="none" stroke="white" stroke-width="3" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Claim Atlas arrow mark">
+<rect width="48" height="48" rx="13" fill="#244DD8"/>
+<path d="M12 14c-6 6-6 16 0 22" fill="none" stroke="#A9D8FF" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M36 34c5-6 5-14 1-19" fill="none" stroke="#A9D8FF" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M19.5 9.5h9V25H36L24 39 12 25h7.5Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="37.5" cy="10.5" r="2.7" fill="#DDF36B"/>
+</svg>
 ```
 
 
@@ -115,21 +121,41 @@ SOFTWARE.
 # Included resource: assets/logo-lockup-dark.svg
 
 ```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 72" role="img" aria-label="Claim Atlas"><rect x="4" y="12" width="48" height="48" rx="12" fill="#244dd8"/><path d="M15 46 28 24l13 22M21 37h14M24 46l4-7 4 7" fill="none" stroke="white" stroke-width="3" stroke-linejoin="round"/><text x="70" y="47" fill="#ffffff" font-family="system-ui, sans-serif" font-size="34" font-weight="750" letter-spacing="-1">Claim Atlas</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 72" role="img" aria-label="Claim Atlas">
+<g transform="translate(4 12)"><rect width="48" height="48" rx="13" fill="#244DD8"/>
+<path d="M12 14c-6 6-6 16 0 22" fill="none" stroke="#A9D8FF" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M36 34c5-6 5-14 1-19" fill="none" stroke="#A9D8FF" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M19.5 9.5h9V25H36L24 39 12 25h7.5Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="37.5" cy="10.5" r="2.7" fill="#DDF36B"/></g>
+<text x="68" y="47" fill="#FFFFFF" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="34" font-weight="750" letter-spacing="-1.2">Claim Atlas</text>
+</svg>
 ```
 
 
 # Included resource: assets/logo-lockup.svg
 
 ```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 72" role="img" aria-label="Claim Atlas"><rect x="4" y="12" width="48" height="48" rx="12" fill="#244dd8"/><path d="M15 46 28 24l13 22M21 37h14M24 46l4-7 4 7" fill="none" stroke="white" stroke-width="3" stroke-linejoin="round"/><text x="70" y="47" fill="#172338" font-family="system-ui, sans-serif" font-size="34" font-weight="750" letter-spacing="-1">Claim Atlas</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 72" role="img" aria-label="Claim Atlas">
+<g transform="translate(4 12)"><rect width="48" height="48" rx="13" fill="#244DD8"/>
+<path d="M12 14c-6 6-6 16 0 22" fill="none" stroke="#A9D8FF" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M36 34c5-6 5-14 1-19" fill="none" stroke="#A9D8FF" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M19.5 9.5h9V25H36L24 39 12 25h7.5Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="37.5" cy="10.5" r="2.7" fill="#DDF36B"/></g>
+<text x="68" y="47" fill="#142449" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="34" font-weight="750" letter-spacing="-1.2">Claim Atlas</text>
+</svg>
 ```
 
 
 # Included resource: assets/logo-mark.svg
 
 ```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Claim Atlas"><rect width="48" height="48" rx="12" fill="#244dd8"/><path d="M11 34 24 12l13 22M17 25h14M20 34l4-7 4 7" fill="none" stroke="white" stroke-width="3" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Claim Atlas arrow mark">
+<rect width="48" height="48" rx="13" fill="#244DD8"/>
+<path d="M12 14c-6 6-6 16 0 22" fill="none" stroke="#A9D8FF" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M36 34c5-6 5-14 1-19" fill="none" stroke="#A9D8FF" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M19.5 9.5h9V25H36L24 39 12 25h7.5Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="37.5" cy="10.5" r="2.7" fill="#DDF36B"/>
+</svg>
 ```
 
 
